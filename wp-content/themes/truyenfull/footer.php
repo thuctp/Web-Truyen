@@ -1,4 +1,4 @@
-	<div class="footer hahahahaahah">
+	<div class="footer">
 		<div class="container">
 			<div class="hidden-xs col-sm-5">
 				<?php echo get_option('footer-comic'); ?>
