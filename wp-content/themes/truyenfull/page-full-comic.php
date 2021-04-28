@@ -30,7 +30,7 @@ $args = array(
 	<div class="row">
 		<div class="col-md-9 content">
 							
-			<section class="section test-effect">
+			<section class="section">
 				<header class="section-header">
 					<h2><?php the_title(); ?></h2>
 				</header>
