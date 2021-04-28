@@ -178,7 +178,7 @@ function custom_thanhvien($link_dangky,$link_thongtin,$link_reset)
 <!--			Cấu hình-->
 <!--		</a>-->
             <a class="logout icon"	href="<?php echo wp_logout_url( home_url() ); ?>"title="Thoát">
-                <i class="fa fa-power-off"></i>
+                <?php echo $current_user->display_name; ?> <i class="fa fa-power-off"></i>
             </a>
 			
 		<?php else: ?>
