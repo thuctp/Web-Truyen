@@ -1,4 +1,8 @@
 #navigation.navbar.c-navbar-custom {
   background-color: #1abc9c; }
 
+@media (max-width: 786px) {
+  .navbar-form.navbar-right {
+    display: none !important; } }
+
 /*# sourceMappingURL=main.css.map */
