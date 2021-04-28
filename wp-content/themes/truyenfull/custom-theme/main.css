@@ -1,7 +1,7 @@
 #navigation.navbar.c-navbar-custom {
   background-color: #1abc9c; }
 
-@media (max-width: 786px) {
+@media (max-width: 992px) {
   .navbar-form.navbar-right {
     display: none !important; } }
 
