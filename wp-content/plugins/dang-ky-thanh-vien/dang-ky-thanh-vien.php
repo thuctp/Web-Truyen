@@ -169,10 +169,10 @@ function custom_thanhvien($link_dangky,$link_thongtin,$link_reset)
 			}
 		?>
 		
-<!--		<a class="username icon" href="--><?php //echo $link_thongtin; ?><!--#user">-->
-<!--			<i class="fa fa-user"></i>-->
-<!--			--><?php //echo $current_user->display_name; ?>
-<!--		</a>-->
+		<a class="username icon" href="<?php echo $link_thongtin; ?>#user">
+			<i class="fa fa-user"></i>
+			<?php echo $current_user->display_name; ?>
+		</a>
 		<a class="userinfo icon" href="<?php echo $link_thongtin; ?>#user" data-toggle="popover" data-trigger="hover focus" data-html="true" data-placement="bottom" data-content='<?php esc_attr( showtabs( $user_id, $link_thongtin ) ); ?>'>
 			<i class="fa fa-gear"></i>
 			Cấu hình
@@ -232,13 +232,14 @@ function checktaikhoan($id,$matkhau)
 		}
 
 }
-
+/*
 function showtabs( $user_id, $link_thongtin ) {	
 //$user_id = get_current_user_id();
 			$current_user = wp_get_current_user();
 		
 			//checktaikhoan($_SESSION['idthanhvien'],$_SESSION['matkhau']);
 			$sl_tinnhan=sl_tinnhan($user_id);
+
 ?>
 
 <ul class="nav nav-pills nav-justified">
@@ -269,6 +270,7 @@ function showtabs( $user_id, $link_thongtin ) {
 </div>
 
 <?php
-} 
+}
 ?>
+ */
 
