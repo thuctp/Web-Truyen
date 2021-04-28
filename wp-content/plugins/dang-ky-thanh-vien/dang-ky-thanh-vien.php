@@ -177,9 +177,9 @@ function custom_thanhvien($link_dangky,$link_thongtin,$link_reset)
 <!--			<i class="fa fa-gear"></i>-->
 <!--			Cấu hình-->
 <!--		</a>-->
-            <div id="tab-follow" class="tab-pane fade">
-                <?php echo esc_attr( danhsachtheodoi( $user_id ) ); ?>
-            </div>
+            <a class="logout icon"	href="<?php echo wp_logout_url( home_url() ); ?>"title="Thoát">
+                <i class="fa fa-power-off"></i>
+            </a>
 			
 		<?php else: ?>
 		
