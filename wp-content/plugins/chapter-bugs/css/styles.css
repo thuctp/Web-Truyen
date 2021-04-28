@@ -1,0 +1,17 @@
+/* = Chapter Bugs
+----------------------------------------------- */
+th#cb {
+	width: 4%;
+}
+th#user_id {
+	width: 10%;
+}
+th#error_link {
+	width: 32%;
+}
+th#comment {
+	width: 45%;
+}
+th#status {
+	width: 10%;
+}

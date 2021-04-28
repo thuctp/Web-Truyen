@@ -1,0 +1,192 @@
+  #the-loaidiv,#tac-giadiv,#nhom-dichdiv
+  {
+    display: none;
+  }
+  .phantrang
+	{
+
+	}
+	.phantrang li
+	{
+  float: left;
+  list-style: none;
+	}
+	.phantrang li a
+	{
+text-decoration: none;
+  color: #000;
+  border-radius: 3px;
+  float: left;
+  background: #ccc;
+  margin: 3px 3px;
+  padding: 4px 10px;
+	}
+	.phantrang .current
+	{
+		 	 background: #fff !important;
+  			color: #fff;
+	}
+	.phantrang li a:hover
+	{
+		 background: #0074A2;
+  			color: #fff;
+	}
+
+.clr
+{
+	clear: both;
+}
+.page-setting
+{
+  border: 1px solid rgba(100, 155, 122, 0.22);
+  padding: 10px;
+  background: #E6FAEE;
+  margin-top: 20px;
+}
+.page-setting-left
+{
+  float: left;
+  width: 155px;
+  margin-right: 20px;
+}
+.page-setting-right
+{
+  float: left;
+  width: 554px;
+  border: 1px solid rgba(117, 173, 126, 0.11);
+  padding: 10px;
+  background: rgba(125, 244, 173, 0.33);
+}
+.tab_caidatchung,.tab_phantrang,.tab_footer,.tab_quangcao, .tab_license,.tab_about
+{
+  text-align: center;
+  border: 1px solid #CAE3B2;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+    margin-bottom: 10px;   cursor: pointer;
+}
+.tab_caidatchung:hover,.tab_phantrang:hover,.tab_footer:hover,.tab_quangcao:hover,.tab_about:hover
+{
+	background: #53BE59;
+	color: #fff;
+	cursor: pointer;
+}
+
+.tab_active
+{
+	background: #53BE59;
+	color: #fff;
+
+}
+.page_setting_active
+{
+  display: block !important;
+}
+
+.caidatchung_active,
+.phantrang_active,.footer_active,.about_active,.quangcao_active, .tabxactive
+{
+	display: none;
+}
+.page-setting-table
+{
+	width: 100%;
+}
+.page-setting-table .text_input
+{
+	width:75%;
+	  margin-bottom: 20px;
+
+}
+.bangmamau
+{
+	float: left;
+}
+.bangmamau a
+{
+padding: 0px 8px;
+}
+.show_color
+{
+	  float: left;
+  padding-top: 5px;
+}
+.about_setting
+{
+  text-align: center;
+border: 1px solid rgba(21, 187, 50, 0.19);
+  box-shadow: 1px 1px 1px 0px rgba(64, 207, 48, 0.68);
+  padding: 10px;
+    margin: -10px;
+
+  background: -webkit-linear-gradient(rgba(190, 244, 188, 0.12), rgba(137, 203, 66, 0.57)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgba(190, 244, 188, 0.12), rgba(137, 203, 66, 0.57)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgba(190, 244, 188, 0.12), rgba(137, 203, 66, 0.57)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgba(190, 244, 188, 0.12), rgba(137, 203, 66, 0.57)); /* Standard syntax */
+
+
+
+}
+.about_setting img
+{
+	width: 300px;
+}
+.about_info
+{
+	background: #fff;
+  width: 85%;
+  margin: 0 auto;
+  padding: 10px 0px;
+    border: 2px solid #E7BA2C;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.about_info p
+{
+	font-size: 16px;
+}
+.page-setting-quangcao
+{
+	  float: left;
+  width: 300px;
+  padding: 0px 5px;
+}
+#quangcao_zingwp1 img,#quangcao_zingwp2 img,#quangcao_zingwp3 img,#zingwp_info img 
+{
+  width: 300px;
+  border: 1px solid #ccc;
+}
+.page-setting-table .upload_image_button
+{
+	width: 100px;
+	background: #329037;
+	 border-color: #15BA4F;
+	  color: #fff;
+}
+.page-setting-table .upload_image_button:hover
+{
+	background:#4BB251;
+	  color: #fff;
+	   border-color: #15BA4F;
+}
+.submit_settingpage .button-primary
+{
+	  background: #1E9016;
+  border-color: #15BA4F;
+}
+.submit_settingpage .button-primary:hover
+{
+	background: #147E0D;
+	border-color: #15BA4F;
+}
+.page-setting-table th
+{
+	  text-align: left; line-height: 27px;
+}
+.submit_settingpage
+{
+	
+	float: right;
+	display: none;
+}

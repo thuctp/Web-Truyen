@@ -1,0 +1,64 @@
+.grap-result {
+    margin-top: 20px;
+}
+
+.grap-title {
+    padding-left: 10px !important;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.grap-w-button input,
+.grap-w-button .grap-spinner,
+.grap-spinner2 {
+    float:left;
+}
+
+.grap-spinner {
+    margin-left: 10px;
+}
+
+.grap-result .postbox, .grap-result-single .postbox{
+    height: 500px !important;
+    overflow: scroll;
+}
+
+.grap-result-single .postbox * {
+    max-width:100%!important;
+}
+
+.grab-chap-span-title {
+    color: red;
+}
+
+.grab-truyen-span-title {
+    color: blue;
+}
+
+.grap-result tr {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.grab-tr-disable {
+    background: blue;
+}
+
+.grab-tr-disable td,
+.grab-tr-disable a {
+    color: #fff;
+}
+
+.grap-w-button .grap-multi-btn {
+    float: right;
+    display: none;
+}
+
+.grap-w-button input.check-grap, .grap-w-button input.grap-multi-btn{
+    margin-top: 20px; 
+}
