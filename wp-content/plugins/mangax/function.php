@@ -510,7 +510,7 @@ function danhsachtruyen($arg=null)
 				}
 			}
 			//echo "hot";
-			//return $list_truyen;
+			return $list_truyen;
 			
 		}
 		elseif (isset($truyen_tinhtrang)&&!isset($truyenhot)&&!isset($theloai)&&!isset($nhom)) /*láy theo tinh trang*/
@@ -525,7 +525,7 @@ function danhsachtruyen($arg=null)
 				}
 			}
 			//echo "tinh trang";
-			//return $list_truyen;
+			return $list_truyen;
 			
 		}
 		elseif (!isset($truyen_tinhtrang)&&!isset($truyenhot)&&!isset($theloai)&&isset($nhom)) /*láy theo tinh nhóm*/
@@ -606,7 +606,7 @@ function danhsachtruyen($arg=null)
 					$list_truyen[]=$value->id;
 				}
 			}
-			//return $list_truyen;
+			return $list_truyen;
 		}
 		elseif (isset($truyen_tinhtrang)&&!isset($truyenhot)&&isset($theloai)&&!isset($nhom)) /*láy theo trang thai-loai*/
 		{
@@ -626,7 +626,7 @@ function danhsachtruyen($arg=null)
 					//$list_truyen[]=$value->id;
 				}
 			}
-			//return $list_truyen;
+			return $list_truyen;
 		}
 		elseif (isset($truyen_tinhtrang)&&!isset($truyenhot)&&!isset($theloai)&&isset($nhom)) /*láy theo trang thai-nhóm*/
 		{
@@ -670,7 +670,7 @@ function danhsachtruyen($arg=null)
 								
 				}
 			}
-			//return $list_truyen;
+			return $list_truyen;
 		}
 		elseif (!isset($truyen_tinhtrang)&&isset($truyenhot)&&!isset($theloai)&&isset($nhom)) /*láy theo nhóm-hot*/
 		{
@@ -745,7 +745,7 @@ function danhsachtruyen($arg=null)
 										}
 				}
 			}
-			//return $list_truyen;
+			return $list_truyen;
 		}
 		elseif (isset($truyen_tinhtrang)&&isset($truyenhot)&&!isset($theloai)&&isset($nhom)) /*láy theo trang thai-hot-nhom*/
 		{
@@ -873,7 +873,7 @@ function danhsachtruyen($arg=null)
 					$list_truyen[]=$value->id;
 				}
 			}
-			//return $list_truyen;
+			return $list_truyen;
 		}
 		else
 		{
@@ -882,7 +882,7 @@ function danhsachtruyen($arg=null)
 			{
 			$list_truyen[]=$value->id;
 			}
-			//return $list_truyen;
+			return $list_truyen;
 		}
 
 
