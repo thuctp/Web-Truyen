@@ -52,4 +52,23 @@
       text-decoration: none !important;
       color: #c19222; }
 
+.position-relative {
+  position: relative; }
+
+.fa-custom-box {
+  border-top: 35px solid transparent;
+  border-left: 50px solid #333333;
+  border-bottom: 35px solid transparent;
+  font-size: 16px;
+  color: #fff;
+  position: absolute;
+  left: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: .3s linear; }
+  .fa-custom-box:before {
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -9px; }
+
 /*# sourceMappingURL=main.css.map */
