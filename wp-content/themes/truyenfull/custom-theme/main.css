@@ -34,6 +34,9 @@
 .mb-0 {
   margin-bottom: 0 !important; }
 
+.pl-32 {
+  padding-left: 32px; }
+
 .social-network {
   margin-top: 80px; }
 
@@ -54,6 +57,9 @@
 
 .position-relative {
   position: relative; }
+
+.box-contact-page.position-relative {
+  padding-left: 55px; }
 
 .fa-custom-box {
   border-top: 35px solid transparent;
