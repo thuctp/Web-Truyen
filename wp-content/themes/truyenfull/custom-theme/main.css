@@ -28,7 +28,8 @@
     text-align: center;
     display: none !important; }
   .box-form-contact form.lead-form-front textarea {
-    width: 100% !important; }
+    width: 100% !important;
+    min-height: 90px; }
 
 .mb-0 {
   margin-bottom: 0 !important; }
