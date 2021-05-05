@@ -4,5 +4,20 @@
 @media (max-width: 992px) {
   .navbar-form.navbar-right {
     display: none !important; } }
+.c-row {
+  display: flex; }
+  .c-row .c-col-6 {
+    width: 50%; }
+  .c-row h2.title-contact {
+    margin-bottom: 40px; }
+
+.box-contact-page {
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  margin-bottom: 24px; }
+
+.mb-0 {
+  margin-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */
