@@ -6,8 +6,8 @@
     display: none !important; } }
 .c-row {
   display: flex;
-  margin-left: 15px;
-  margin-right: 15px; }
+  margin-left: -15px;
+  margin-right: -15px; }
   .c-row .c-col-6 {
     width: 50%; }
   .c-row h2.title-contact {
