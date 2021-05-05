@@ -43,5 +43,8 @@
     align-items: center;
     justify-content: center;
     margin-right: 24px; }
+    .social-network-list .social-network-items:hover {
+      text-decoration: none !important;
+      color: #c19222; }
 
 /*# sourceMappingURL=main.css.map */

@@ -39,5 +39,9 @@
     align-items: center;
     justify-content: center;
     margin-right: 24px;
+    &:hover{
+      text-decoration: none!important;
+      color: #c19222;
+    }
   }
 }
