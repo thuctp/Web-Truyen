@@ -62,6 +62,7 @@
   padding-left: 55px;
   margin-left: 15px;
   &:hover{
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
     .fa-custom-box{
       color: #c19222;
     }
