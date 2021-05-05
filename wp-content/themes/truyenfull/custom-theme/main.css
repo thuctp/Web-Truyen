@@ -24,6 +24,11 @@
 .box-form-contact {
   background-color: white;
   padding: 0 24px; }
+  .box-form-contact h2 {
+    text-align: center;
+    display: none !important; }
+  .box-form-contact form.lead-form-front textarea {
+    width: 100% !important; }
 
 .mb-0 {
   margin-bottom: 0 !important; }
