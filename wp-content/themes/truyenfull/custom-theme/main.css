@@ -13,7 +13,10 @@
     padding-left: 15px;
     padding-right: 15px; }
   .c-row h2.title-contact {
-    margin-bottom: 40px; }
+    margin-bottom: 32px; }
+
+.align-between-sections {
+  margin: 40px 0; }
 
 .box-contact-page {
   padding: 24px;
@@ -28,5 +31,17 @@
 
 .mb-0 {
   margin-bottom: 0 !important; }
+
+.social-network-list {
+  display: flex;
+  flex-wrap: wrap; }
+  .social-network-list .social-network-items {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px; }
 
 /*# sourceMappingURL=main.css.map */
